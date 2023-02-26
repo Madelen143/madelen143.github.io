@@ -1,0 +1,88 @@
+/* anything withtin body tag will be using this style */
+body {
+    font-family: Karla, sans-serif;
+    color: #484848;
+    /* got rid of the whitespace around the headers nad elems  */
+    margin: 0;
+    padding: 0;
+
+}
+
+/* aaply this style to ul inside nav tag */
+nav ul {
+    /* gets rid of bullet points */
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* in css if only specify width or height for image, other dimension scales proportionately */
+header {
+    /* color = text */
+    /* background = everything, like the space */
+    background-color: #FF5A5F;
+    height: 80px;
+}
+
+/* # = id
+. = class */
+#logo {
+    height: 80px
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+/* each li inside nav will be to the right of the prev element */
+nav li {
+    display: inline-block;
+    margin-left: 40px;
+    /* setting line height to total height of header means it will be vertically centered  */
+    line-height: 80px
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    /* control over cursor appearance in an elemen like when hover over it */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline
+}
+
+.content {
+    width: 900px;
+    /* using auto will automatically center the div */
+    margin: auto;
+}
+
+
+section {
+    padding: 20px;
+    border: 1px solid #cccccc;  
+    margin-bottom: 30px;
+}
+
+section img {
+    width: 800px;
+}
+
+h1 {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+section p {
+    font-size: 18px;
+}
