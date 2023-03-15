@@ -1,0 +1,67 @@
+/* *multiple selectors seperates by commas  */
+body {
+    background-color: rgb(114, 159, 241);
+}
+h1, li {
+    font-family: Arial;
+ } 
+ 
+ /* *this will select only list elements within food-list id */
+ #food-list li {
+    color: rgb(120, 120, 219);
+ }
+ 
+ /* * select id highlight within un-ordered list */
+ ul .highlight {
+    background-color: rgb(245, 190, 109);
+ }
+ /* * list elems withing cafe-list id */
+ #cafe-list li {
+    color: rgb(84, 124, 84);
+ }
+
+ /* !if set a width, then can use "margin: auto" to center item */
+ #container {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    color: rgb(148, 148, 192)
+ }
+ 
+ 
+ 
+ .block-box {
+    display: block;
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: 10px solid skyblue;
+    margin: 30px;	
+ }
+
+ .inline-block {
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: 10px solid rgb(102, 185, 106);
+    margin: 30px;	
+ }
+
+ .inline {
+    display: inline;
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: 10px solid rgb(226, 120, 143);
+    margin: 30px;	
+ }
+
+ .devtools {
+    display: block;
+    padding: 15px;
+    margin: 30px;	
+ }
+
+ 
