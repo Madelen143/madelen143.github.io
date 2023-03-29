@@ -9,8 +9,9 @@ header {
     padding-bottom: 20px;
     background: white;
     /* PROBLEM 1: Make the header stick to the top as you scroll */
+    /* //! position:sticky only works when you specify offset like top */
     position: sticky;
-
+    top: 0px;
 }
 
 .content {
